@@ -1,0 +1,12 @@
+#Centerbody{
+   text-align: center;
+    
+}
+
+#AL{
+    color:red;
+}
+
+#Centerbody>Button{
+    background-color: #273c75;
+}
