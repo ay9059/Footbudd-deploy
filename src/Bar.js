@@ -4,7 +4,7 @@ import './Bar.css';
 function Bar(){
     return(
         <div id="Top">
-            <h2>Footbud</h2>
+            <h2>Footbud - Web App</h2>
             
             
         </div>
