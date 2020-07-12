@@ -54,7 +54,7 @@ class Nav extends Component{
                 }else if (match_league.localeCompare("La Liga")==0){
                     match_league="PD";
                 }else{
-                    match_league="CL";
+                    match_league="FL1";
 
                 }
                 break;

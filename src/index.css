@@ -36,3 +36,8 @@ code {
   padding-top: -20px;
   margin-top: -10px;
 }
+
+#root{
+  margin-top: 0;
+  
+}
