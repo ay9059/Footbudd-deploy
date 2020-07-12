@@ -38,7 +38,7 @@ class Nav extends Component{
         var match_year;
 
         //Get the league
-        for ( let i = 0, len = 4; i < len; i++ ) {
+        for ( let i = 0, len = 5; i < len; i++ ) {
             let opt = this.league.current.options[i];
            
             if ( opt.selected === true ) {
@@ -51,8 +51,11 @@ class Nav extends Component{
                     match_league = "BL1";
                 }else if(match_league.localeCompare("Serie A")==0){
                     match_league ="SA";
-                }else{
+                }else if (match_league.localeCompare("La Liga")==0){
                     match_league="PD";
+                }else{
+                    match_league="CL";
+
                 }
                 break;
             }
@@ -262,6 +265,7 @@ class Nav extends Component{
          <option value="1">La Liga</option>
         <option value="2">Bundesliga</option>
         <option value="3">Serie A</option>
+        <option value="4">Ligue 1</option>
         </select>
         </div>
         <br></br>
