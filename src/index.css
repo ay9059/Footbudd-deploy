@@ -39,5 +39,8 @@ code {
 
 #root{
   margin-top: 0;
+  position: absolute;
+  top:0px;
+  width: 100%;
   
 }
