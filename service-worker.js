@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Footbudd-deploy/precache-manifest.da0ef0c1f08f9c870eeeee7b7f473130.js"
+  "/Footbudd-deploy/precache-manifest.b72f5474b9671a777215f792e358205d.js"
 );
 
 self.addEventListener('message', (event) => {
