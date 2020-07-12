@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cce0ecb1e749c8e1bfd8f20878af0e93",
+    "revision": "a3226601ccd5d4d68e6a2e6543bdfa02",
     "url": "/Footbudd-deploy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Footbudd-deploy/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "285b0d346ca28b8e243d",
-    "url": "/Footbudd-deploy/static/css/main.762577dc.chunk.css"
+    "revision": "da8bedcf0c83edaf29fd",
+    "url": "/Footbudd-deploy/static/css/main.5360afbb.chunk.css"
   },
   {
     "revision": "4477cfeff5e7656ad461",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Footbudd-deploy/static/js/2.1931e71d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "285b0d346ca28b8e243d",
-    "url": "/Footbudd-deploy/static/js/main.58f668e1.chunk.js"
+    "revision": "da8bedcf0c83edaf29fd",
+    "url": "/Footbudd-deploy/static/js/main.438c63df.chunk.js"
   },
   {
     "revision": "000f9bc84822369f3833",
