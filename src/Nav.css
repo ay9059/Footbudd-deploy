@@ -6,7 +6,7 @@
 .float-container>div {
 
     
-    padding: 60px;
+    padding: 30px;
     float: left;
 }
 
@@ -69,7 +69,7 @@ select{
   .table-like div span { 
     z-index: 1;
     display: table-cell;
-    padding-left:20px; 
+    padding-left:14px; 
     padding-top: 10px;
   }
   
@@ -84,4 +84,17 @@ select{
     font-weight: bold;
   }
 
+  @media screen and (max-width: 700px) {
+
+    .float-container{
+      border-radius: 5px;
+  
+    }
+    .float-container>div {
+
+    
+      padding: 10px;
+      float: left;
+  }
+  }
  

@@ -11,7 +11,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
   <div id="outer">
   <Bar />
-  <p id="abhi"> Made with ♥ by Abhishek, Check out my Website!</p>
+  <p id="abhi"> Made with ♥ by Abhishek | <a href={"https://ay9059.github.io/"} id="github">Portfolio</a></p>
+  
   <Select/>
   </div>,
   document.getElementById('root')
