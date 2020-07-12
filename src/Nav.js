@@ -18,7 +18,7 @@ class Nav extends Component{
 
       fetch = () => {
         $("#Para").empty();
-        $("#table").empty();
+        $("#Centerbody").empty();
         function loadImage(leag){
             console.log("ASDAADSDs")
             $(".badges").ready(function(){
@@ -194,7 +194,7 @@ class Nav extends Component{
 
                   let h4 = document.createElement("H4");
                   h4.innerHTML = "Current Season Table: ";
-                  $("#table").append(h4);
+                  $("#Centerbody").append(h4);
                  response.standings[0].table.forEach(element =>{
                      console.log(element);
                     
@@ -234,13 +234,13 @@ class Nav extends Component{
                     score_div.append(span6);
 
                     div.append(score_div);
-                    $("#table").append(div);
+                    $("#Centerbody").append(div);
                     loadImage(match_league);
                     
                  })
 
               }else{
-                $("#table").text("Only available for current season. :");
+                $("#Centerbody").text("Only available for current season");
 
               }
           })    
@@ -255,7 +255,6 @@ class Nav extends Component{
         
 
 <div className="float-container">
-
 <div className="float-child-select">
 <div id="League">
         <h4>Select League: </h4>
@@ -267,7 +266,7 @@ class Nav extends Component{
         <option value="3">Serie A</option>
         <option value="4">Ligue 1</option>
         </select>
-        </div>
+ </div>
         <br></br>
        
     
@@ -331,28 +330,20 @@ class Nav extends Component{
 
     </div>
 
-    <div className="float-child">
+    <div id="second">
         <div id="Centerbody">
         <p ref={this.table} id="table"></p>
         </div>
+        <br/>
     </div>
 
     <div className="float-child">
-        <div id="Centerbody">
-        <p ref={this.para} id="Para"></p>
-        </div>
-    </div>
-
-
-
-
-  
-
+      
+        <div ref={this.para} id="Para"></div>
 
     </div>
-
     </div>
-
+    </div>
 
         )}
 

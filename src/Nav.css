@@ -3,24 +3,30 @@
 
 }
 
-.float-container {
-    border: 3px solid #fff;
+.float-container>div {
+
+    
     padding: 20px;
+    float: left;
 }
 
 .float-child {
     width: 40%;
-    float: left;
+   
+
 }  
 
 .float-child-select {
+  z-index: 1;
     width: 19%;
-    float: left;
+
     padding: 20px; 
+    
 }  
 
 .score
 {
+  z-index: 1;
     font-size: 15px;
 }
 
@@ -31,31 +37,43 @@
 
 
 select{
+  z-index: 1;
     padding: 4px;
     
 }
 
 .table_score{
 
+
+  z-index: 1;
     height:auto;
     
 }
 
+#second{
+  padding-right: 90px;
+}
+
 .score_div{
+  z-index: 1;
  padding: 30px;
 }
 
 .table-like {
+    z-index: 1;
     display: table;
     width: 300px;
+    
   }
   
-  .table-like div { 
+  .table-like div {
+    z-index: 1; 
     display: table-row;
     
   }
   
   .table-like div span { 
+    z-index: 1;
     display: table-cell;
     padding-left:20px; 
     padding-top: 10px;
@@ -70,4 +88,21 @@ select{
   /* bold on 1st row */
   .table-like div:nth-child(1) {
     font-weight: bold;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .float-container {
+   
+
+      border: 3px solid black;
+      padding: 20px;
+     
+  }
+  .float-container>div {
+
+   
+    padding: 20px;
+   
+}
+    
   }
