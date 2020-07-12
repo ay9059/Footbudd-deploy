@@ -1,15 +1,6 @@
 body {
   margin: 0;
-
-  background-repeat: no-repeat;
-
-
-  background-position: bottom;
-  
-  background-size: 50%;
-
   margin-top: 20%;
-  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,6 +9,17 @@ body {
 }
 
 
+html{ width:100%; height:100%; 
+  background-image: url('./g.png'), url('./m.png');
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  background-size:28%, 30% ;
+ 
+  background-position: bottom left, bottom right ;
+}
+
 #Al{
   display: inline-block;
 }
@@ -25,4 +27,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#abhi{
+  text-align: center;
+  color:white;
+  background-color:#c23616;
+  padding-top: -20px;
+  margin-top: -10px;
 }

@@ -110,14 +110,21 @@ class Nav extends Component{
                 var im_away = document.createElement("IMG");
                 im_away.src = "./"+element.awayTeam.name+".png";
                 im_away.className = "badges";
+                let home_score = element.score.fullTime.homeTeam;
+                let away_score = element.score.fullTime.awayTeam;
+                console.log(element);
+                if(home_score==null){
+                    home_score = "TBD";
+                    away_score = "TBD";
+                }
 
 
               
 
                 di.className = "score"
                 di.innerHTML = im_home.outerHTML + element.homeTeam.name + '  <b>' 
-                +element.score.fullTime.homeTeam + '-' 
-                + element.score.fullTime.awayTeam 
+                +home_score + '-' 
+                + away_score
                 + '</b>  '+ element.awayTeam.name + im_away.outerHTML;
 
 
@@ -139,6 +146,7 @@ class Nav extends Component{
           
           }).done(function(response) {
 
+            
               console.log("match year is: "+match_year)
               var d = new Date();
 
@@ -156,6 +164,7 @@ class Nav extends Component{
                   let span3 = document.createElement("span");
                   let span4 = document.createElement("span");
                   let span5 = document.createElement("span");
+                  let span6 = document.createElement("span");
 
              
                   span.innerHTML = "Pos";
@@ -165,6 +174,7 @@ class Nav extends Component{
                   span3.innerHTML = "W";
                   span4.innerHTML = "D";
                   span5.innerHTML = "L";
+                  span6.innerHTML = "GD";
                   score_div.append(span);
                   score_div.append(span1);
                   score_div.append(span_team);
@@ -172,6 +182,7 @@ class Nav extends Component{
                   score_div.append(span3);
                   score_div.append(span4);
                   score_div.append(span5);
+                  score_div.append(span6);
          
                   div.append(score_div);
                   //$("#table").append(div);
@@ -193,6 +204,7 @@ class Nav extends Component{
                     let span3 = document.createElement("span");
                     let span4 = document.createElement("span");
                     let span5 = document.createElement("span");
+                    let span6 = document.createElement("span");
 
                     
                     im.src=element.team.name+".png";
@@ -206,6 +218,8 @@ class Nav extends Component{
                     span3.innerHTML = element.won;
                     span4.innerHTML = element.draw;
                     span5.innerHTML = element.lost;
+                    span6.innerHTML = element.goalDifference;
+               
 
                     score_div.append(span0);
                     score_div.append(span);
@@ -214,6 +228,7 @@ class Nav extends Component{
                     score_div.append(span3);
                     score_div.append(span4);
                     score_div.append(span5);
+                    score_div.append(span6);
 
                     div.append(score_div);
                     $("#table").append(div);

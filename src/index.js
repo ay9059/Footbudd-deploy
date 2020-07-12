@@ -9,14 +9,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(
-  <div>
+  <div id="outer">
   <Bar />
-  
+  <p id="abhi"> Made with ♥ by Abhishek</p>
   <Select/>
-
-
-
-
   </div>,
   document.getElementById('root')
 );
