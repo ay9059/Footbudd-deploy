@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Footbudd-deploy/static/css/main.5360afbb.chunk.css",
+    "main.css": "/Footbudd-deploy/static/css/main.5cb664cf.chunk.css",
     "main.js": "/Footbudd-deploy/static/js/main.438c63df.chunk.js",
     "main.js.map": "/Footbudd-deploy/static/js/main.438c63df.chunk.js.map",
     "runtime-main.js": "/Footbudd-deploy/static/js/runtime-main.88547f12.js",
@@ -9,10 +9,10 @@
     "static/js/2.1931e71d.chunk.js": "/Footbudd-deploy/static/js/2.1931e71d.chunk.js",
     "static/js/2.1931e71d.chunk.js.map": "/Footbudd-deploy/static/js/2.1931e71d.chunk.js.map",
     "index.html": "/Footbudd-deploy/index.html",
-    "precache-manifest.a5439b1abb545fb8b1e37e4349d8c26d.js": "/Footbudd-deploy/precache-manifest.a5439b1abb545fb8b1e37e4349d8c26d.js",
+    "precache-manifest.d98891fce26ab0b2eae18f9b814d2eca.js": "/Footbudd-deploy/precache-manifest.d98891fce26ab0b2eae18f9b814d2eca.js",
     "service-worker.js": "/Footbudd-deploy/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/Footbudd-deploy/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.5360afbb.chunk.css.map": "/Footbudd-deploy/static/css/main.5360afbb.chunk.css.map",
+    "static/css/main.5cb664cf.chunk.css.map": "/Footbudd-deploy/static/css/main.5cb664cf.chunk.css.map",
     "static/js/2.1931e71d.chunk.js.LICENSE.txt": "/Footbudd-deploy/static/js/2.1931e71d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Footbudd-deploy/static/media/m.764ad9fc.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.88547f12.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.1931e71d.chunk.js",
-    "static/css/main.5360afbb.chunk.css",
+    "static/css/main.5cb664cf.chunk.css",
     "static/js/main.438c63df.chunk.js"
   ]
 }
