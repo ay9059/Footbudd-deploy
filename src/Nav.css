@@ -6,15 +6,11 @@
 .float-container>div {
 
     
-    padding: 20px;
+    padding: 60px;
     float: left;
 }
 
-.float-child {
-    width: 40%;
-   
 
-}  
 
 .float-child-select {
   z-index: 1;
@@ -50,9 +46,7 @@ select{
     
 }
 
-#second{
-  padding-right: 90px;
-}
+
 
 .score_div{
   z-index: 1;
@@ -90,19 +84,4 @@ select{
     font-weight: bold;
   }
 
-  @media only screen and (max-width: 900px) {
-    .float-container {
-   
-
-      border: 3px solid black;
-      padding: 20px;
-     
-  }
-  .float-container>div {
-
-   
-    padding: 20px;
-   
-}
-    
-  }
+ 
