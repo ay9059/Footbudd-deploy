@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Footbudd-deploy/static/css/main.91d898e0.chunk.css",
-    "main.js": "/Footbudd-deploy/static/js/main.842678c3.chunk.js",
-    "main.js.map": "/Footbudd-deploy/static/js/main.842678c3.chunk.js.map",
+    "main.js": "/Footbudd-deploy/static/js/main.6e4ec87c.chunk.js",
+    "main.js.map": "/Footbudd-deploy/static/js/main.6e4ec87c.chunk.js.map",
     "runtime-main.js": "/Footbudd-deploy/static/js/runtime-main.88547f12.js",
     "runtime-main.js.map": "/Footbudd-deploy/static/js/runtime-main.88547f12.js.map",
     "static/css/2.829c9cb5.chunk.css": "/Footbudd-deploy/static/css/2.829c9cb5.chunk.css",
     "static/js/2.1931e71d.chunk.js": "/Footbudd-deploy/static/js/2.1931e71d.chunk.js",
     "static/js/2.1931e71d.chunk.js.map": "/Footbudd-deploy/static/js/2.1931e71d.chunk.js.map",
     "index.html": "/Footbudd-deploy/index.html",
-    "precache-manifest.6cab3a6a625f8d8560bde333704cde8d.js": "/Footbudd-deploy/precache-manifest.6cab3a6a625f8d8560bde333704cde8d.js",
+    "precache-manifest.aca2881ffa928593ad08113a532fc690.js": "/Footbudd-deploy/precache-manifest.aca2881ffa928593ad08113a532fc690.js",
     "service-worker.js": "/Footbudd-deploy/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/Footbudd-deploy/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.91d898e0.chunk.css.map": "/Footbudd-deploy/static/css/main.91d898e0.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.1931e71d.chunk.js",
     "static/css/main.91d898e0.chunk.css",
-    "static/js/main.842678c3.chunk.js"
+    "static/js/main.6e4ec87c.chunk.js"
   ]
 }
