@@ -316,9 +316,9 @@ class Nav extends Component{
         </select>
      
         <select name="Year" ref={this.year}>
-        var d = new Date();
-        var cur_year = d.getFullYear();
-        <option value="2019">cur_year</option>
+        {d = new Date()};
+        {cur_year = d.getFullYear()};
+        <option value="2019">{cur_year}</option>
         <option value="2019">2019</option>
         <option value="2018">2018</option>
         </select>
